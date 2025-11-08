@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_FACTORY": "@next_public_factory",
+    "NEXT_PUBLIC_ROUTER": "@next_public_router"
+  }
+}

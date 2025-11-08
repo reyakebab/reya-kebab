@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  kebab-frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    environment:
+      - NEXT_PUBLIC_FACTORY=${NEXT_PUBLIC_FACTORY}
+      - NEXT_PUBLIC_ROUTER=${NEXT_PUBLIC_ROUTER}
+    ports:
+      - "3000:3000"

@@ -1,0 +1,40 @@
+{
+  "name": "Kebab Default",
+  "logoURI": "/branding/kebab.png",
+  "keywords": [
+    "kebab",
+    "reya"
+  ],
+  "timestamp": "2025-11-08T00:00:00+00:00",
+  "tokens": [
+    {
+      "chainId": 1729,
+      "address": "0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30",
+      "symbol": "WETH",
+      "name": "Wrapped Ether",
+      "decimals": 18,
+      "logoURI": "/branding/kebab.png"
+    },
+    {
+      "chainId": 1729,
+      "address": "0x49d753C5B7C6D23262d4259aC863FfE10aBD9F2a",
+      "symbol": "KEBAB",
+      "name": "Kebab Token",
+      "decimals": 18,
+      "logoURI": "/branding/kebab.png"
+    },
+    {
+      "chainId": 1729,
+      "address": "0xa9F32a851B1800742e47725DA54a09A7Ef2556A3",
+      "symbol": "RUSD",
+      "name": "RUSD",
+      "decimals": 6,
+      "logoURI": "/branding/kebab.png"
+    }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 2,
+    "patch": 1
+  }
+}

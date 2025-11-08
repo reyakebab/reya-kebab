@@ -1,0 +1,15 @@
+# ---- Build stage ----
+FROM node:20-alpine AS build
+WORKDIR /app
+COPY frontend/package.json frontend/package-lock.json* ./
+RUN npm i --legacy-peer-deps || npm i
+COPY frontend ./
+RUN npm run build
+
+# ---- Runtime stage ----
+FROM node:20-alpine AS run
+WORKDIR /app
+ENV NODE_ENV=production
+COPY --from=build /app .
+EXPOSE 3000
+CMD ["npm", "start"]

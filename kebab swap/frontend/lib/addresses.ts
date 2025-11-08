@@ -1,0 +1,8 @@
+export const ADDRESSES = {
+  WETH: "0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30",
+  KEBAB: "0x49d753C5B7C6D23262d4259aC863FfE10aBD9F2a",
+  // fill after deploy:
+  FACTORY: process.env.NEXT_PUBLIC_FACTORY || "",
+  ROUTER: process.env.NEXT_PUBLIC_ROUTER || ""
+  , RUSD: "0xa9F32a851B1800742e47725DA54a09A7Ef2556A3"
+} as const;
