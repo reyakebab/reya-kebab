@@ -1,0 +1,1 @@
+export const REYA = { chainId: 1729, rpc: "https://rpc.reya.network", explorer: "https://explorer.reya.network" } as const;
