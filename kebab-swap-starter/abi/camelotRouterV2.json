@@ -1,0 +1,123 @@
+{
+  "abi": [
+    {
+      "type": "function",
+      "stateMutability": "view",
+      "name": "getAmountsOut",
+      "inputs": [
+        {
+          "name": "amountIn",
+          "type": "uint256"
+        },
+        {
+          "name": "path",
+          "type": "address[]"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256[]"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "stateMutability": "nonpayable",
+      "name": "addLiquidity",
+      "inputs": [
+        {
+          "name": "tokenA",
+          "type": "address"
+        },
+        {
+          "name": "tokenB",
+          "type": "address"
+        },
+        {
+          "name": "amountADesired",
+          "type": "uint256"
+        },
+        {
+          "name": "amountBDesired",
+          "type": "uint256"
+        },
+        {
+          "name": "amountAMin",
+          "type": "uint256"
+        },
+        {
+          "name": "amountBMin",
+          "type": "uint256"
+        },
+        {
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "name": "deadline",
+          "type": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "amountA",
+          "type": "uint256"
+        },
+        {
+          "name": "amountB",
+          "type": "uint256"
+        },
+        {
+          "name": "liquidity",
+          "type": "uint256"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "stateMutability": "nonpayable",
+      "name": "removeLiquidity",
+      "inputs": [
+        {
+          "name": "tokenA",
+          "type": "address"
+        },
+        {
+          "name": "tokenB",
+          "type": "address"
+        },
+        {
+          "name": "liquidity",
+          "type": "uint256"
+        },
+        {
+          "name": "amountAMin",
+          "type": "uint256"
+        },
+        {
+          "name": "amountBMin",
+          "type": "uint256"
+        },
+        {
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "name": "deadline",
+          "type": "uint256"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "amountA",
+          "type": "uint256"
+        },
+        {
+          "name": "amountB",
+          "type": "uint256"
+        }
+      ]
+    }
+  ]
+}

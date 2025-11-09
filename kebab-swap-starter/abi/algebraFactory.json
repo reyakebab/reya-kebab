@@ -1,0 +1,46 @@
+{
+  "abi": [
+    {
+      "type": "function",
+      "stateMutability": "view",
+      "name": "poolByPair",
+      "inputs": [
+        {
+          "name": "token0",
+          "type": "address"
+        },
+        {
+          "name": "token1",
+          "type": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "stateMutability": "nonpayable",
+      "name": "createPool",
+      "inputs": [
+        {
+          "name": "token0",
+          "type": "address"
+        },
+        {
+          "name": "token1",
+          "type": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pool",
+          "type": "address"
+        }
+      ]
+    }
+  ]
+}

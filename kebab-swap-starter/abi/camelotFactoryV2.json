@@ -1,0 +1,46 @@
+{
+  "abi": [
+    {
+      "type": "function",
+      "stateMutability": "view",
+      "name": "getPair",
+      "inputs": [
+        {
+          "name": "tokenA",
+          "type": "address"
+        },
+        {
+          "name": "tokenB",
+          "type": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "stateMutability": "nonpayable",
+      "name": "createPair",
+      "inputs": [
+        {
+          "name": "tokenA",
+          "type": "address"
+        },
+        {
+          "name": "tokenB",
+          "type": "address"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "pair",
+          "type": "address"
+        }
+      ]
+    }
+  ]
+}

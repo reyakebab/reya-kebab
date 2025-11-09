@@ -1,0 +1,48 @@
+{
+  "abi": [
+    {
+      "type": "function",
+      "stateMutability": "view",
+      "name": "token0",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "stateMutability": "view",
+      "name": "token1",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ]
+    },
+    {
+      "type": "function",
+      "stateMutability": "view",
+      "name": "getReserves",
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "_reserve0",
+          "type": "uint112"
+        },
+        {
+          "name": "_reserve1",
+          "type": "uint112"
+        },
+        {
+          "name": "_blockTimestampLast",
+          "type": "uint32"
+        }
+      ]
+    }
+  ]
+}

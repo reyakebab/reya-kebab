@@ -1,0 +1,22 @@
+{
+  "name": "KebabSwap Reya Default",
+  "timestamp": "2025-11-08T00:00:00Z",
+  "tokens": [
+    {
+      "chainId": 1729,
+      "address": "0xa9F32a851B1800742e47725DA54a09A7Ef2556A3",
+      "symbol": "RUSD",
+      "decimals": 18,
+      "name": "Reya USD",
+      "logoURI": "/logos/rusd.png"
+    },
+    {
+      "chainId": 1729,
+      "address": "0x6B48C2e6A32077ec17e8Ba0d98fFc676dfab1A30",
+      "symbol": "WETH",
+      "decimals": 18,
+      "name": "Wrapped Ether",
+      "logoURI": "/logos/weth.png"
+    }
+  ]
+}
